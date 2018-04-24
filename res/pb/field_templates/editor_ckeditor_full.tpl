@@ -1,0 +1,1 @@
+../../../pb/smarty_plugins/templates/editor_ckeditor_full.tpl

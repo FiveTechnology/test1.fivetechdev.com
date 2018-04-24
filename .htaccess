@@ -1,0 +1,12 @@
+# SMC SEO REWRITE START MARKER - DO NOT DELETE
+# Anything you put here will be deleted, go above or below this
+# Rewrite Map for SMC Page Rewrites
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f [or]
+RewriteCond %{REQUEST_URI} ^/sitepages/p.*\.php$ [or]
+RewriteCond %{REQUEST_URI} ^/store/p.*\.php$
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule (.*) /smc/rewrite.php?r=$1 [L,QSA,NS,NE]
+# SMC SEO REWRITE END MARKER - DO NOT DELETE
+

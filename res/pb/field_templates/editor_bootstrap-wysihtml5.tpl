@@ -1,0 +1,1 @@
+../../../pb/smarty_plugins/templates/editor_bootstrap-wysihtml5.tpl
